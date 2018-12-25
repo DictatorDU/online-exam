@@ -1,0 +1,101 @@
+#active {
+	background: #017F7F;
+}
+.msg {
+	color: red;
+	margin-left: 10px;
+}
+.admin-login form .passMsg{
+
+}
+.table {
+	width: 100%;
+	margin-top: -2px;
+}
+.table .thead {
+	background: #138496;
+}
+
+  .table .thead .thead-tr th {
+  	padding: 10px 0px;
+  	color: #fff;
+  }
+	.thead-tr .serial{
+		width: 5%;
+	}
+  .thead-tr .name{
+		width: 30%;
+	}
+  .thead-tr .email{
+	  width: 35%;
+	}
+  .thead-tr .action{
+		width: 25%;
+	}
+
+.table .tr-content{}
+	.table .tr-content td {
+		text-align: center;
+		height: 35px;
+		font-size: 15px;
+	}
+td a{
+  text-decoration:none;
+  color:#777;
+  transition: all .3s;
+	cursor:pointer;
+}
+td a:hover{
+  color:#111;
+}
+.admin-content form{
+	margin-top: 25px
+}
+.admin-login{
+	width: 450px;
+	height: 270px;
+	border: 1px solid #ddd;
+	margin: 30px auto;
+}
+.admin-login .login-email {
+	width: 418px;
+	margin-left: 10px;
+	height: 35px;
+	border: 1px solid #ddd;
+	padding-left: 10px;
+	margin-bottom: 20px;
+}
+.admin-login .login-password{
+	width: 418px;
+	margin-left: 10px;
+	height: 35px;
+	border: 1px solid #ddd;
+	padding-left: 10px;
+}
+.admin-login input[type="submit"] {
+	width: 280px;
+	margin: 35px 20%;
+}
+.admin-login input[type='checkbox']{
+	margin-left:11px;
+	margin-right:5px;
+	margin-top:10px;
+}
+.admin-login span{
+	color:#777;
+}
+.question-no {
+	width: 10%;
+}
+.question{}
+.question-ans{width: 27%;
+}
+	.question-action {
+		width: 18%;
+	}
+	.add-question {
+		width: 650px;
+		min-height: 335px;
+		border: 1px solid #ddd;
+		margin: 10px auto;
+	}

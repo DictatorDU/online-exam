@@ -1,0 +1,255 @@
+*{padding:0px;margin:0px;outline: 0px}
+.clear{overflow: hidden;}
+a{text-decoration:none;}
+.template {
+	width: 960px;
+	margin: 20px auto;
+	font-size: 15px;
+	font-family: Calibri;
+	border: 1px solid #ddd;
+	box-shadow: 0 0 5px 0;
+}
+.header{}
+  .header img {
+  	width: 959px;
+  }
+  .menubar{
+    width: 959px;
+  }
+  .menubar .ul {
+  	list-style: none;
+  	background: #138496;
+  	padding-top: 11px;
+  	margin-top: -5px;
+  	padding-bottom: 14px;
+  }
+  .menubar .ul li {
+  	display: inline;
+  	background: #138496;
+  }
+	.menubar .ul li #active{
+		background: #008081;
+	}
+  .menubar .ul li a:hover {
+	background: #008081;
+  transition: all .5s;
+}
+
+.menubar .ul li a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 18px;
+	padding: 14px 25px;
+}
+
+.main-content {
+	width: 959px;
+}
+.main-content .row {
+	width: 939px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	margin-left: 10px;
+	margin-right: 10px;
+	overflow: hidden;
+}
+.main-content .row .headline{
+	background: #f1f1f1;
+	padding: 10px;
+	font-size: 25px;
+	text-align: center;
+	color: #666;
+}
+  .main-content .row .col-left {
+  	width: 430px;
+  	float: left;
+  	border: 1px solid #ddd;
+  	padding: 15px;
+  	padding-top: 30px;
+  	padding-bottom: 50px;
+    height: 235px;
+  }
+  .row .col-left img {
+  	margin-left: 100px;
+  }
+
+	.row .col-right {
+		width: 430px;
+		min-height: 285px;
+		float: right;
+		border: 1px solid #ddd;
+		padding: 15px;
+	}
+  .row .col-right .loginform {
+  	margin-top: -5px;
+  }
+  .row .col-right .loginform .login_txt {
+  display: inline;
+}
+  .row .col-right .loginform .input{
+  	width: 340px;
+  	height: 32px;
+  	padding-left: 10px;
+  	color: #888;
+  	border: 1px solid #ddd;
+  	margin-bottom: 15px;
+  }
+  .row .col-right .loginform .password-input{
+  	width: 340px;
+  	height: 32px;
+  	padding-left: 10px;
+  	color: #888;
+  	border: 1px solid #ddd;
+		margin-bottom: 5px;
+  }
+
+.row .col-right .loginform input[type='checkbox']{
+	  margin-bottom: 10px;
+}
+.loginform .show-pass {
+	padding-left: 7px;
+	color: #777;
+}
+.row .col-right .loginform input[type='submit']{}
+
+  .footer {
+  	width: 959px;
+  	background: #008081;
+  	padding: 15px;
+  	color: #fff;
+  }
+.footer p{
+  text-align: center;
+}
+.error {
+  color: red;
+}
+.user-div {
+  float: right;
+  color: #fff;
+  margin-right: 40px;
+  height: 30px;
+  width: 240px;
+}
+.user-div .user-divtwo{
+  float: right;
+}
+.user-div img {
+  width: 22px;
+}
+.user-div span {
+  font-size: 20px;
+}
+.col-right .start-test {
+  font-size: 30px;
+  text-align: center;
+  color: #555;
+  border-bottom: 1px solid #777;
+  margin-bottom: 70px;
+}
+.col-right .start-now {
+  font-size: 22px;
+  color: #777;
+  background: #f1f1f1;
+  display: block;
+  padding: 5px 10px;
+  border: 1px solid #919191;
+  text-align: center;
+  transition:all .5s;
+}
+.col-right .start-now:hover {
+  color: #333;
+  background: #f4f4f4;
+}
+.content-div {
+  width: 500px;
+  height: 230px;
+  border: 1px solid #999;
+  margin: 0 auto;
+  padding: 38px;
+}
+.content-div table {
+  width: 86%;
+  height: auto;
+  margin: 0 auto;
+}
+.content-div table tr{}
+.content-div table tr .input{}
+.content-div table tr td {
+  color: #666;
+  height: 60px;
+}
+.content-div table tr td input[type="text"] {
+  width: 288px;
+  height: 30px;
+  border: 1px solid #888;
+  padding-left: 10px;
+}
+.content-div table tr td input[type="submit"]{}
+
+.over-view{}
+.over-view h3{
+  font-size: 30px;
+  text-align: center;
+  color: #555;
+  border-bottom: 1px solid #777;
+  margin-bottom: 20px;
+}
+.over-view p {
+  font-size: 18px;
+  color: #444;
+  line-height: 1.5;
+}
+.over-view .start-view {
+  font-size: 22px;
+  border: 1px solid #919191;
+  text-align: center;
+  transition: all .5s;
+  margin-top: 20px;
+  padding-left: 125px;
+  padding-right: 125px;
+}
+.exam{}
+.exam h4 {
+  font-size: 23px;
+  color: #777;
+}
+.exam ul {
+  list-style: none;
+}
+.exam ul li {
+  font-size: 18px;
+  line-height: 1.5;
+  color: #666;
+}
+.exam ul li input[type="radio"] {
+  margin-right: 10px;
+}
+.view-answer{
+    width: 859px;
+    min-height: 230px;
+    border: 1px solid #f1f1f1;
+    margin: 0 auto;
+    padding: 38px;
+}
+.view-two {
+  width: 70%;
+  margin: 0 auto;
+}
+.view-answer .view-two h2 {
+  color: #666;
+  font-weight: normal;
+}
+.view-answer .view-two ul {
+  list-style: lower-alpha;
+  padding-left: 19px;
+  margin-bottom: 20px;
+}
+.view-answer .view-two ul li {
+  font-size: 18px;
+  color: #555;
+  line-height: 1.5;
+}
+.view-answer .view-two ul #right-ans{
+      font-weight: bold;
+}
